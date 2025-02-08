@@ -1,0 +1,28 @@
+:root{
+    --font-primary: "Raleway", serif;
+    --font-secondary: "Oswald", serif;
+    --color-text-primary: #000000;
+    --color-text-contrast: #ffffff;
+    --color-button: #B2FFA6;
+    --color-bg-primary: #121212;
+    --color-bg-section: #EFEFEF;
+    }
+
+    body{
+        font-family: var(--font-primary);
+        color: var(--color-text-primary);
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 1.17;
+    }
+header{
+    background-color: var(--color-bg-primary);
+}
+.nav-link {
+    color: var(--color-text-contrast);
+    font-family: var(--font-secondary);
+    text-decoration: none;
+}
+.nav-link:hover{
+    color: var(--color-button);
+}
