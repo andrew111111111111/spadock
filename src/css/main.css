@@ -1,28 +1,44 @@
-:root{
-    --font-primary: "Raleway", serif;
-    --font-secondary: "Oswald", serif;
-    --color-text-primary: #000000;
-    --color-text-contrast: #ffffff;
-    --color-button: #B2FFA6;
-    --color-bg-primary: #121212;
-    --color-bg-section: #EFEFEF;
-    }
+:root {
+  --font-primary: "Raleway", serif;
+  --font-secondary: "Oswald", serif;
+  --color-text-primary: #000000;
+  --color-text-contrast: #ffffff;
+  --color-button: #b2ffa6;
+  --color-bg-primary: #121212;
+  --color-bg-section: #efefef;
+}
 
-    body{
-        font-family: var(--font-primary);
-        color: var(--color-text-primary);
-        font-size: 24px;
-        font-weight: 400;
-        line-height: 1.17;
-    }
-header{
-    background-color: var(--color-bg-primary);
+body {
+  font-family: var(--font-primary);
+  color: var(--color-text-primary);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.17;
+}
+.header {
+  background-color: var(--color-bg-primary);
 }
 .nav-link {
-    color: var(--color-text-contrast);
-    font-family: var(--font-secondary);
-    text-decoration: none;
+  color: var(--color-text-contrast);
+  font-family: var(--font-secondary);
+  text-decoration: none;
 }
-.nav-link:hover{
-    color: var(--color-button);
+.nav-link:hover {
+  color: var(--color-button);
+}
+/* hero */
+.hero-title {
+  font-size: 64px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.hero-title-part {
+  font-weight: 700;
+  font-size: 64px;
+}
+.hero-button {
+  line-height: 1.5;
+  letter-spacing: 0.06em;
+  background-color: var(--color-button);
+  font-family: var(--font-secondary);
 }
